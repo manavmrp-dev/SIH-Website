@@ -1,0 +1,1 @@
+import{a as n}from"./index-D3-rjFUn.js";const s={getTasks(e){return n.get("/engineer/tasks",{params:e?{status:e}:void 0})},getTask(e){return n.get(`/engineer/tasks/${e}`)},getAsset(e){return n.get(`/engineer/assets/${e}`)},createInspection(e){return n.post("/engineer/inspections",e)},updateInspection(e,t){return n.patch(`/engineer/inspections/${e}`,t)}};export{s as e};
