@@ -1,1 +1,0 @@
-function t(){return typeof window<"u"&&!!window.janmAPI}function e(){return t()?"desktop":"website"}function o(){return e()==="desktop","/api/v1"}export{e as detectPlatform,o as getApiBaseUrl,t as isDesktopRuntime};
